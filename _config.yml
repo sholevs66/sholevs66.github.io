@@ -1,6 +1,7 @@
 # _config.yml
 title: "Omer's notes"
 description: "Welcome to my blog! Here, I'll documenting my notes, summaries and technical guides."
+theme: minima  # Example theme
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://sholevs66.github.io" # the base hostname & protocol for your site
 
