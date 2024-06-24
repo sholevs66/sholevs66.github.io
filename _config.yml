@@ -1,0 +1,22 @@
+# _config.yml
+title: "Omer's notes"
+description: "Welcome to my blog! Here, I'll documenting my notes, summaries and technical guides."
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://sholevs66.github.io" # the base hostname & protocol for your site
+
+markdown: kramdown
+kramdown:
+  math_engine: mathjax
+  mathjax: 
+    cdn: "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
+
+# Include MathJax directly in your HTML head
+includes:
+  - scripts
+
+# Exclude folders and files
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
