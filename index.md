@@ -1,7 +1,3 @@
-<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/mml-mmltex.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-
-
 # Omer's Blog for Technical Stuff
 
 Welcome to my blog! Here, I'll documenting my notes, summaries and technical guides.

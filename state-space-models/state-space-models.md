@@ -1,3 +1,7 @@
+<script type="text/javascript" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+
 # State Space Models (SSM) - Motivation & Mamba
 
 Mamba Paper: https://arxiv.org/pdf/2312.00752
