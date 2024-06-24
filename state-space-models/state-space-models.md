@@ -32,6 +32,7 @@ $$y(t+\Delta) = Ch(t+\Delta) \quad$$
 In the paper they use Zero order hold defined by:
 
 ![Alt text](image.png)
+
 With this we write:
 
 ![Alt text](image-1.png)
