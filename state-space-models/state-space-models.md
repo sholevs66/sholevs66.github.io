@@ -21,5 +21,21 @@ SSM offers the ideal combination:
 1) Easy training parallelization (like Transformers) for handling long sequences in memory (like RNNs).
 2) Constant computation/memory for each token inference.
 
+## SSM basics and discretization
+In continous time (CT) we have:
+$$h'(t) = Ah(t) + Bx(t) \quad (1a)$$
+$$y(t) = Ch(t) \quad (1b)$$
+If we discretize using Euler's method: $\frac{h(t+\Delta) - h(t)}{\Delta} = h'(t)$  we would get:
+$$h(t+\Delta) \approx (I+\Delta A)h(t) + \Delta Bx(t) = \bar Ah(t) + \bar Bx(t)$$
+$$y(t+\Delta) = Ch(t+\Delta) \quad$$
+
+In the paper they use Zero order hold defined by:
+
+![Alt text](image.png)
+With this we write:
+
+![Alt text](image-1.png)
+
+
 
 
