@@ -1,8 +1,3 @@
----
-layout: default
-title: State Space Models
----
-
 # State Space Models (SSM) - Motivation & Mamba
 
 Mamba Paper: https://arxiv.org/pdf/2312.00752
